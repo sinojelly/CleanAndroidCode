@@ -7,3 +7,5 @@ gen
 *.iml
 *.ipr
 *.iws
+.gradle/
+build/
