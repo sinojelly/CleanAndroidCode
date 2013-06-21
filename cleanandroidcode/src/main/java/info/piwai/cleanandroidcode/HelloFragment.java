@@ -1,5 +1,6 @@
 package info.piwai.cleanandroidcode;
 
+import android.util.Log;
 import info.piwai.cleanandroidcode.base.BaseFragment;
 
 import javax.inject.Inject;
@@ -16,6 +17,7 @@ public class HelloFragment extends BaseFragment {
 
 	@Click
 	void fragmentButtonClicked() {
+        Log.i("jelly", "fragmentButtonClicked");
 		bus.post(new UpdateTitleEvent("Button clicked at " + System.currentTimeMillis()));
 	}
 }

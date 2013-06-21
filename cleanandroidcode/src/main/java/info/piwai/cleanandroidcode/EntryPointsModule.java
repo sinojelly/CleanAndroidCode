@@ -9,6 +9,4 @@ import dagger.Provides;
 
 @Module(injects={HelloAndroidActivity_.class,HelloFragment_.class})
 public class EntryPointsModule {
-
-
 }
